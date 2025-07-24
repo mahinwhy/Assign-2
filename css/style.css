@@ -219,5 +219,49 @@ header nav{
         height: auto;
         object-fit: contain;
     }
+
+    /* plants section */
+
+    .plant_section{
+        margin: 65px 16px 41px 16px;
+    }
+
+    .title2{
+        font-size: 24px;
+    }
+
+    .normaltext2{
+        padding: 0 12.5px;
+    }
+
+    .plant_grid{
+        margin: 28px 0 0 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .single_plant{
+        width: auto;
+        height: auto;
+    }
+
+    .p_img{
+        width: auto;
+        height: auto;
+    }
+
+    .p_img img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .p_price{
+        margin: 0 0 25px 0;
+    }
+
+    .btn1{
+        width: 100%;
+        height: 50px;
+    }
     
 }
