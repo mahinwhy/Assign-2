@@ -105,7 +105,7 @@ header nav{
 /* Plants Section */
 
 .plant_section{
-    margin: 0 150px 120px 150px;
+    margin: 0 150px 0 150px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -170,7 +170,7 @@ header nav{
 
 .plant_lover{
     display: flex;
-    margin: 0 150px 120px 150px;
+    margin: 210px 150px 0 150px;
     justify-content: space-between;
     gap: 60px;
 }
@@ -199,6 +199,107 @@ header nav{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Latest Deals */
+
+.deals{
+    margin: 133px 150px 120px 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.deals_view{
+    margin-top: 50px;
+    gap: 25px;    
+    display: flex;
+}
+
+.img_left{
+    gap: 25px;
+    justify-content: left;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.img_x1, .img_x2{
+    position: relative;
+    width: 367px;
+    height: 197px;
+}
+
+.img_x3{
+    position: relative;
+    width: 753px;
+    height: 424px;
+}
+
+.img_x1 img, .img_x2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 14px;
+}
+
+.img_x3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 22px;
+}
+
+.x1_link, .x2_link{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.x3_link{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.overlay-text_x1, .overlay-text_x2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.overlay-text_x3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;
+}
 
 @media screen and (max-width: 576px) {
 
