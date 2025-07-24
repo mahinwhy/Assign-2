@@ -176,7 +176,19 @@ header nav{
 }
 
 .pl_img{
+    position: relative;
+}
 
+.main_img{
+    display: block;
+}
+
+.overly_img{
+    position: absolute;
+    top: -120px;
+    right: -120px;
+    width: 286px;
+    height: 286px;
 }
 
 .pl_list{
@@ -298,6 +310,10 @@ header nav{
         margin: 0 16px 143px 16px;
         justify-content: center;
         gap: 0px;
+    }
+
+    .overly_img{
+        display: none;
     }
     
 }
