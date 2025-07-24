@@ -2,6 +2,13 @@
 .defaulttext_fontsize1 {
   font-size: 22px;
 }
+.defaulttitle_fontsize1 {
+  font-size: 50px;
+}
+
+li{
+    margin-bottom: 15px;
+}
 
 /* header */
 a{
@@ -107,7 +114,6 @@ header nav{
 
 .title2{
     align-items: center;
-    font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
@@ -160,6 +166,27 @@ header nav{
 }
 
 
+/* Plant lover */
+
+.plant_lover{
+    display: flex;
+    margin: 0 150px 120px 150px;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.pl_img{
+
+}
+
+.pl_list{
+
+}
+
+.ul_text{
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 @media screen and (max-width: 576px) {
 
@@ -169,6 +196,10 @@ header nav{
 
     .defaulttext_fontsize1 {
         font-size: 16px;
+    }
+
+    .defaulttitle_fontsize1 {
+        font-size: 24px;
     }
 
     /* header */
@@ -226,10 +257,6 @@ header nav{
         margin: 65px 16px 41px 16px;
     }
 
-    .title2{
-        font-size: 24px;
-    }
-
     .normaltext2{
         padding: 0 12.5px;
     }
@@ -263,5 +290,6 @@ header nav{
         width: 100%;
         height: 50px;
     }
+
     
 }
