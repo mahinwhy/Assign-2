@@ -1,0 +1,56 @@
+
+
+/* header */
+a{
+     text-decoration: none;
+     color: black;
+     font-size: 1rem;
+}
+
+header{
+    margin: 30px 150px 120px 150px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 82px;
+    width: 135px;
+    object-fit: contain;
+}
+
+.links a{
+    font-size: 1rem;
+    color: rgba(137, 135, 161, 1);
+    margin-right: 1.5rem;
+}
+
+.links a.home_link{
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart_link{
+    color: #000000;
+    font-size: 1rem;
+}
+
+.cart img{
+    height: 24px;
+    width: 24px;
+}
