@@ -176,7 +176,6 @@ header nav{
 .plant_lover{
     display: flex;
     margin: 210px 150px 0 150px;
-    justify-content: space-between;
     gap: 60px;
 }
 
@@ -492,8 +491,21 @@ footer{
         gap: 0px;
     }
 
+    .pl_img{
+        padding: 016px;
+    }
+
+    .main_img{
+        width: 530px;
+    }
+
     .overly_img{
         display: none;
+    }
+
+    .pl_list{
+        padding: 016px;
+
     }
 
     /* latest deals */
