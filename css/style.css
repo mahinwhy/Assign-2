@@ -122,5 +122,42 @@ header nav{
     .links{
         display: none;
     }
+
+    /* banner */
+
+    .banner{
+        margin: 0 0 0 0;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner_img{
+
+        order: 1;
+    }
+
+    .banner_text{
+        padding: 0 16px;
+        height: auto;
+        width: auto;
+        order: 2;
+    }
+
+    .title1{
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+    }
+
+    .normaltext1{
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .banner_img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
     
 }
