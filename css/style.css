@@ -291,5 +291,13 @@ header nav{
         height: 50px;
     }
 
+    /* Plant lover */
+
+    .plant_lover{
+        display:contents;
+        margin: 0 16px 143px 16px;
+        justify-content: center;
+        gap: 0px;
+    }
     
 }
