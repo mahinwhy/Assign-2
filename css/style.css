@@ -506,5 +506,18 @@ header nav{
         font-size: 20px;
         border-radius: 14px;
     }
+
+    /* Join section */
+    .join{
+        padding: 110px 0 64px 0;
+    }
+
+    .searchbar{
+        width: 218px;
+    }
+
+    .subscribe{
+        width: 103px;
+    }
     
 }
