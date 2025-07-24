@@ -554,5 +554,29 @@ footer{
     .subscribe{
         width: 103px;
     }
+
+    /* footer */
+
+    footer{
+        margin: 50px 20px;
+        flex-direction: column;
+        text-align: left; 
+        gap: 0;
+    }
+
+    .footer_txt{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .footer_txt img{
+        width: 180px;
+        height: 109px;
+    }
+
+    .links_grid2{
+        margin: 20px 0;
+    }
     
 }
