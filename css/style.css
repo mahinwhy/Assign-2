@@ -62,12 +62,11 @@ header nav{
 
 .banner{
     height: 460px;
-    background-color: aqua;
     margin: 0 150px 120px 150px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    align-items: end;
+    align-items: flex-end;
+    flex-direction: row;
 }
 
 .banner_text{
