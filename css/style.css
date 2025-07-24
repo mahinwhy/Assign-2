@@ -1,4 +1,7 @@
 
+.defaulttext_fontsize1 {
+  font-size: 22px;
+}
 
 /* header */
 a{
@@ -55,11 +58,54 @@ header nav{
     width: 24px;
 }
 
+/* Banner */
+
+.banner{
+    height: 460px;
+    background-color: aqua;
+    margin: 0 150px 120px 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: end;
+}
+
+.banner_text{
+    width: 570px;
+}
+
+.title1{
+    align-items: center;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.normaltext1{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner_img{
+    height: 355px;
+    width: 570px;
+}
+
+.banner_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
 
 @media screen and (max-width: 576px) {
 
     html {
         font-size: 87.5%;
+    }
+
+    .defaulttext_fontsize1 {
+        font-size: 16px;
     }
 
     /* header */
