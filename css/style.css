@@ -1,3 +1,8 @@
+body {
+    background-color: rgba(245, 248, 255, 1);
+    margin: 0;
+    padding: 0;
+}
 
 .defaulttext_fontsize1 {
   font-size: 22px;
@@ -301,7 +306,40 @@ header nav{
     border-radius: 22px;
 }
 
+/* Join section */
+.join{
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    padding: 193px 305px 193px 305px;
+}
 
+.title5{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.search{
+
+}
+
+.searchbar{
+    height: 50px;
+    width: 664px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.subscribe{
+    height: 50px;
+    width: 186px;
+    background-color: rgba(233, 90, 8, 1);
+    font-size: 16px;
+    border: none;
+}
 
 
 
