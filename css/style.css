@@ -95,6 +95,70 @@ header nav{
 }
 
 
+/* Plants Section */
+
+.plant_section{
+    margin: 0 150px 120px 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title2{
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.normaltext2{
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 126px;
+}
+
+.plant_grid{
+    margin: 50px 0 0 0;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.single_plant{
+
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 485px;
+}
+
+.p_img{
+    width: 270px;
+    height: 323px;
+}
+
+.p_title{
+    margin: 25px 0 0 0;
+    font-weight: 500;
+}
+
+.p_price{
+    font-weight: bold;
+    margin: 10px 0 25px 0;
+}
+
+.btn1{
+    width: 270px;
+    height: 50px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -148,10 +212,6 @@ header nav{
         font-size: 24px;
         font-weight: bold;
         margin: 0 0 10px 0;
-    }
-
-    .normaltext1{
-        color: rgba(0, 0, 0, 0.5);
     }
 
     .banner_img img {
